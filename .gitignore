@@ -1,5 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/macos,windows,linux,intellij,pycharm,visualstudio,visualstudiocode,xcode
-# Edit at https://www.toptal.com/developers/gitignore?templates=macos,windows,linux,intellij,pycharm,visualstudio,visualstudiocode,xcode
+# Created by https://www.toptal.com/developers/gitignore/api/macos,windows,linux,intellij,pycharm,visualstudio,visualstudiocode,xcode,jupyternotebooks
+# Edit at https://www.toptal.com/developers/gitignore?templates=macos,windows,linux,jupyternotebooks,intellij,pycharm,visualstudio,visualstudiocode,xcode
 
 ### Intellij ###
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm and Rider
@@ -113,6 +113,20 @@ fabric.properties
 # Azure Toolkit for IntelliJ plugin
 # https://plugins.jetbrains.com/plugin/8053-azure-toolkit-for-intellij
 .idea/**/azureSettings.xml
+
+### JupyterNotebooks ###
+# gitignore template for Jupyter Notebooks
+# website: http://jupyter.org/
+
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# IPython
+profile_default/
+ipython_config.py
+
+# Remove previous ipynb_checkpoints
+#   git rm -r .ipynb_checkpoints/
 
 ### Linux ###
 *~
@@ -688,4 +702,4 @@ FodyWeavers.xsd
 ### VisualStudio Patch ###
 # Additional files built by Visual Studio
 
-# End of https://www.toptal.com/developers/gitignore/api/macos,windows,linux,intellij,pycharm,visualstudio,visualstudiocode,xcode
+# End of https://www.toptal.com/developers/gitignore/api/macos,windows,linux,intellij,pycharm,visualstudio,visualstudiocode,xcode,jupyternotebooks
